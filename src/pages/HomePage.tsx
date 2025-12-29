@@ -21,7 +21,15 @@ const tools: Tool[] = [
     gradient: 'linear-gradient(135deg, #00f5ff 0%, #a855f7 100%)',
     tags: ['Modulation', 'Synthesis', 'Interactive'],
   },
-  // Future tools can be added here
+  {
+    id: 'biquad-visualizer',
+    name: 'Biquad Filter',
+    description: 'Step-by-step visualization of how biquad filters process audio. Learn about IIR filters, feedforward and feedback paths.',
+    icon: '🎛️',
+    path: '/tools/biquad-visualizer',
+    gradient: 'linear-gradient(135deg, #22c55e 0%, #ff6b35 100%)',
+    tags: ['Filters', 'DSP', 'Educational'],
+  },
 ];
 
 export default function HomePage() {
